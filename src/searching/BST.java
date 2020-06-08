@@ -132,7 +132,7 @@ public class BST {
 	}
 	public void preorder(){
 		preorder(root);
-	}
+    	}
 	
 	//function to preorder
 	private void preorder(BSTNode r){
