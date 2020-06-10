@@ -4,4 +4,16 @@ complex pattern of characters such email, SSN or domain names.
 
 1.Regular expressions
 	Regular expressions are the key to powerful, flexible, and efficient text processing, It allow you to 
-	describle and parse text.
+	describe and parse text. Regular expression can add, remove , isolate and generally fold, spindle, and mutilate 
+	all kinds of text and data.
+	
+	1.1. Metacharacters and literals
+	
+	Full regular expressions are composed of two types of characters.
+		- The special characters (like the * from the filename analogy) are called metacharacters
+		- The rest are call literals, or normal text characters
+	Regex gain usefullness from advanced expressive powers that their metacharacters provide. We can
+	think of literal text acting as the words and metacharacters as the grammer. The words and 
+	metacharacters as the grammar. The words are combined with grammar according to a set of rules
+	to create an expression that communicates an idea 
+	
