@@ -29,8 +29,8 @@ public static String RemoveVietnameseSymbol(String a_text){
     String l_text = a_text;
     try {
         l_text = java.text.Normalizer.normalize(a_text, java.text.Normalizer.Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+","");
-        l_text = l_text.replaceAll("Đ", "D");
-        l_text = l_text.replaceAll("đ", "d");
+        l_text = l_text.replaceAll("Ä�", "D");
+        l_text = l_text.replaceAll("Ä‘", "d");
     } catch (Exception ex) {
     }
     return l_text;
@@ -43,7 +43,7 @@ public static String RemoveVietnameseSymbol(String a_text){
         String s = h.removeSpecialText("201912231249096107152000294304002512107      808400000000310200002268B");
         System.out.println(s);
         System.out.println(s.length());
-
+        System.out.println("thangnd");
 	}
 
 }
