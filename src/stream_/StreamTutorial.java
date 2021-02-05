@@ -62,11 +62,30 @@ public class StreamTutorial {
         System.out.println(Arrays.toString(listStrings.toArray()));
     }
 
+    /**
+     * limit: the 'limit' method is used to reduce the size of the stream.
+     *
+     */
+    public static void limitFun(){
+        Random random = new Random();
+        random.ints().limit(10).forEach(System.out::println);
+    }
+
+    /**
+     * sort: the sort is used to sort the stream.
+     *
+     */
+    public static void sortFun(){
+        Random random = new Random();
+        random.ints().limit(10).sorted().forEach(System.out::println);
+    }
+
     public static void main(String[] args) {
         System.out.println("stream tutorial");
 //        forEachFun();
 //        mapFun();
-        filterFun();
-
+//        filterFun();
+//        limitFun();
+        sortFun();
     }
 }
