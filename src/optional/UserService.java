@@ -20,6 +20,7 @@ public class UserService {
 		list.add(user4);
 		list.add(user5);
 		list.add(user);
+		return list;
 	}
 
 }
