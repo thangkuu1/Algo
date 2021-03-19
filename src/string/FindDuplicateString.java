@@ -1,6 +1,6 @@
 package string;
 
-import static org.hamcrest.CoreMatchers.instanceOf;
+//import static org.hamcrest.CoreMatchers.instanceOf;
 
 import java.util.HashMap;
 

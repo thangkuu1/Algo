@@ -33,7 +33,7 @@ public class MD5Algorithm {
 			//convert it to hexdecimal format
 			StringBuffer sb = new StringBuffer();
 			for(int i = 0; i < bytes.length; i++) {
-				sb.append(Integer.toString((bytes[i] & 0xff) + 0x100, 16));
+				sb.append(String.format("%02x", bytes[i] & 0xff));
 			}
 //			System.out.println(Integer.parseInt(bytes.toString(), 16));
 			
@@ -49,7 +49,7 @@ public class MD5Algorithm {
 	
 	public static void main(String[] args) {
 		MD5Algorithm md5 = new MD5Algorithm();
-		String pass = md5.passwordWithMD5("thangnd");
+		String pass = md5.passwordWithMD5("D7F5Bb1!");
 		System.out.println(pass);
 	}
 

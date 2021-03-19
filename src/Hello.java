@@ -43,7 +43,7 @@ public static String RemoveVietnameseSymbol(String a_text){
         String s = h.removeSpecialText("201912231249096107152000294304002512107      808400000000310200002268B");
         System.out.println(s);
         System.out.println(s.length());
-		System.out.println("ok yes");
+		System.out.println("ok yes hi comment");
 
 	}
 
