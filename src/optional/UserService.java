@@ -2,6 +2,7 @@ package optional;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class UserService {
 	
@@ -21,6 +22,12 @@ public class UserService {
 		list.add(user5);
 		list.add(user);
 		return list;
+	}
+	
+	public User findUserById(String username) {
+		init();
+		List<User> listSub = list.stream().filter(user -> username.equals(user.getUsername())).collect(Collectors.toList());
+		return listSub.get(0);
 	}
 
 }
