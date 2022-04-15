@@ -1,0 +1,3 @@
+link: https://medium.com/codex/data-structures-primer-b14c160cbd66
+problem 1: Given a sorted array of positive integers with an empty spot at the end,
+ insert an element in sorted order.
