@@ -34,14 +34,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ef00f64-6e9f-4e1e-998a-b094735c4517" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/equilibrium/FindEquilibrium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/shift/ShiftFromBackThenInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/shift/info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/maxcontainerwater/MaxContainerWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/CaptchaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/MergeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/star/WriteStar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/number/Prime_FactorizationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/Prime_FactorizationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,34 +65,40 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="1o2i2CXlP2NjPBEHELwn1jVyMJA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
-  </component>
-  <component name="RunManager" selected="Application.FindEquilibrium">
-    <configuration name="BinaryStringGen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binary_string.BinaryStringGen" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MergeString.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feature/optional",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/6.Other/2.CodeOther/Algo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.MergeString">
+    <configuration name="CaptchaUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="image.CaptchaUtils" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binary_string.*" />
+          <option name="PATTERN" value="image.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShiftFromBackThenInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.shift.ShiftFromBackThenInsert" />
+    <configuration name="MaxContainerWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.maxcontainerwater.MaxContainerWater" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.shift.*" />
+          <option name="PATTERN" value="array.maxcontainerwater.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTutorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream_.StreamTutorial" />
+    <configuration name="MergeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.MergeString" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream_.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="regex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="regex.regex" />
+    <configuration name="WriteStar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="star.WriteStar" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="regex.*" />
+          <option name="PATTERN" value="star.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,13 +160,21 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeString" />
+        <item itemvalue="Application.WriteStar" />
+        <item itemvalue="Application.MaxContainerWater" />
+        <item itemvalue="Application.CaptchaUtils" />
         <item itemvalue="Application.FindEquilibrium" />
-        <item itemvalue="Application.ShiftFromBackThenInsert" />
-        <item itemvalue="Application.BinaryStringGen" />
-        <item itemvalue="Application.StreamTutorial" />
-        <item itemvalue="Application.regex" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19072.14" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19072.14" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -186,6 +199,18 @@
       <workItem from="1649997159251" duration="753000" />
       <workItem from="1650005324917" duration="5069000" />
       <workItem from="1650015416377" duration="28000" />
+      <workItem from="1650018764582" duration="33000" />
+      <workItem from="1650116114711" duration="49000" />
+      <workItem from="1650335936582" duration="2327000" />
+      <workItem from="1650338401237" duration="6563000" />
+      <workItem from="1650349761869" duration="8505000" />
+      <workItem from="1650420393501" duration="4678000" />
+      <workItem from="1650438810183" duration="6508000" />
+      <workItem from="1650506184616" duration="197000" />
+      <workItem from="1650506449013" duration="20000" />
+      <workItem from="1650873143134" duration="622000" />
+      <workItem from="1660278559630" duration="1413000" />
+      <workItem from="1729233935120" duration="1736000" />
     </task>
     <servers />
   </component>
@@ -215,6 +240,15 @@
           <url>file://$PROJECT_DIR$/src/array/equilibrium/FindEquilibrium.java</url>
           <line>14</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/array/maxcontainerwater/MaxContainerWater.java</url>
+          <line>17</line>
+          <properties class="array.maxcontainerwater.MaxContainerWater" method="maxContainerWater">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
