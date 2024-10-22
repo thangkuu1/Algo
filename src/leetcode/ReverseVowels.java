@@ -1,5 +1,7 @@
 package leetcode;
 
+import java.util.Arrays;
+
 /**
  * Given a string s, reverse only all the vowels in the string and return it.
  * <p>
@@ -8,31 +10,27 @@ package leetcode;
  * Output: "AceCreIm"
  */
 public class ReverseVowels {
-    public String reverseVowels(String s) {
-        StringBuilder sb1 = new StringBuilder();
-        String s1 = s.substring(0, s.length() / 2);
-        String s2 = s.substring(s.length() / 2);
-        StringBuilder sb2 = new StringBuilder();
-        for (int i = 0; i < s1.length(); i++) {
-            if (!checkVowels(s1.charAt(i))) {
-                sb1.append(s1.charAt(i));
-            } else {
-                for (int j = s2.length() - 1; j > 0; j--) {
-                    if (checkVowels(s2.charAt(j))) {
-                        sb1.append(s2.charAt(j));
-                        sb2.insert(0, s1.charAt(i));
-                        s2 = s2.substring(0, j);
-                        break;
-                    } else {
-                        sb2.insert(0, s2.charAt(j));
-                    }
 
-                }
-                if (s2.length() == 1) sb2.insert(0, s2);
-            }
+    public String reverse(String s) {
+        char [] charsS = s.toCharArray();
+        int maxLength = charsS.length - 1;
 
+        for(int i = 0; i < charsS.length; i ++) {
+
+             if(checkVowels(charsS[i])) {
+                 // find
+                 if(i < maxLength) {
+                     while (!checkVowels(charsS[maxLength])) {
+                         maxLength -= 1;
+                     }
+                     char temp = charsS[i];
+                     charsS[i] = charsS[maxLength];
+                     charsS[maxLength] = temp;
+                     maxLength -= 1;
+                 }
+             }
         }
-        return sb1.toString() + sb2.toString();
+        return new String(charsS);
     }
 
     public static boolean checkVowels(char s) {
@@ -42,7 +40,8 @@ public class ReverseVowels {
 
     public static void main(String[] args) {
         ReverseVowels reverseVowels = new ReverseVowels();
-        String s = "aaaiue";
-        System.out.printf(reverseVowels.reverseVowels(s));
+//        String s = "IceCreAm";
+        String s = "a.";
+        System.out.printf(reverseVowels.reverse(s));
     }
 }
